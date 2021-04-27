@@ -1,0 +1,84 @@
+<!DOCTYPE html><!--  declaration defines that this document is an HTML5 document -->
+<html>
+<head> <!-- this  element is a container for metadata
+ Metadata typically define the document title, character set, styles, scripts, and other meta information -->
+    <title>My first website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><!-- this element contains all the contents of an HTML document -->
+  <header>
+  
+    <nav class="myNav">
+      <ul>
+        <li>
+          <a href="#home"> Home</a>
+        </li>
+        <li>
+          <a href="#about"> About </a>
+        </li>
+        <li>
+          <a href="#contact"> Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="me">
+      <img id="myImage"
+        src="https://pbs.twimg.com/profile_images/1313134923650412546/oUCnszs1.jpg" />
+      <p class="describe-me">
+        As a pationate with the new technologie, I choose the web development
+        because it's a world where every thing move so fast, there is always
+        something new to learn, every day is a new challenge for me.
+      </p>
+    </div>
+  </section>
+  <hr>
+  <section id="about">
+    <ol>
+      <li>Name: Ahmed</li>
+      <li>Last Name: Ayadi</li>
+      <li>Email: ahmedayadi91@gmail.com</li>
+      <li>Phone Number:55991000</li>
+      <li>
+        <details>
+            <summary>Academic background</summary>
+            <ol>
+                <li>
+                GoMyCode certificate
+                </li>
+                <li>
+                pre-engineering studies
+                </li>
+            </ol>
+          </details>
+      </li>
+    </ol>
+    <hr>
+    <iframe width="960"
+     height="315" 
+     src="https://www.youtube.com/embed/z2jgLckP8O8"
+      frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+       allowfullscreen></iframe>
+  </section>
+  <br>
+  <hr>
+  <br>
+  <h1>Contact Form</h1>
+  <section id="contact">
+    <form>
+      <label for="FullName">Full Name: </label>
+      <input type="text" name="FullName" /> <br>
+      <label for="email">Email: </label>
+      <input type="email" name="email" /><br>
+      <label for="PhoneNumber">Phone Number: </label>
+      <input type="Number" name="PhoneNumber" /><br>
+      <label for="Comment">Comment: </label> <br>
+      <textarea rows="20" cols="13"></textarea>
+      <button class='btn' type="submit">Submit</button>
+    </form>
+  </section>
+    
+</body>
+</html>
